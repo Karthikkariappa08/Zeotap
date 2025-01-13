@@ -1,0 +1,27 @@
+<!DOCTYPE html> <html lang="en">
+<head>
+  <meta charset="UTF-8">
+ <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Google Sheets Clone</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <div id="app">
+   <div id="toolbar">
+     <button onclick="applyFunction('SUM')">SUM</button>
+     <button onclick="applyFunction('AVERAGE')">AVERAGE</button>
+      <button onclick="applyFunction('MAX')">MAX</button>
+      <button onclick="applyFunction('MIN')">MIN</button>
+      <button onclick="applyFunction('COUNT')">COUNT</button>
+      <button onclick="applyDataQuality('TRIM')">TRIM</button>
+      <button onclick="applyDataQuality('UPPER')">UPPER</button>
+      <button onclick="applyDataQuality('LOWER')">LOWER</button>
+     <button onclick="applyDataQuality('REMOVE_DUPLICATES')">REMOVE DUPLICATES</button>
+      <button onclick="findAndReplace()">FIND & REPLACE</button>
+      <button onclick="setValidation('number')">Set Numeric Validation</button>
+      <button onclick="setValidation('date')">Set Date Validation</button>
+      <button onclick="setValidation('text')">Set Text Validation</button>
+    </div>
+    <div id="spreadsheet"></div>   </div>
+   <script src="script.js"></script> </body> </html>
+
